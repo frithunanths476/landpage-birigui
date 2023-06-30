@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5DC;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header{
+    background-color: #FFF159;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.pesquisa .ynfuan{
+    width: 125px;
+    height: 125px;
+    margin: 20px;
+}
+
+.pesquisa .dewis{
+    background-color: #F5F5DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.personalidades {
+    background-color: #F5F5DC;
+    padding: 20px;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.sylfaenydd {
+    display: flex;
+    align-items: center;
+}
+  
+.sylfaenydd img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.sylfaenydd p {
+    margin: 0;
+    color: #333;
+}  
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  
+button:hover {
+    background-color: #0056b3;
+    transition: 500ms;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/*Estilos para a main*/
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.texto {
+    margin-bottom: 20px;
+}
+  
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+p {
+    margin-bottom: 10px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+  
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+table th {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.pečat img{
+    max-width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.testunStamp{
+    display: none;
+}
+  
+/* Estilos para o mapa */
+
+.mapaBirigui iframe {
+    width: 800px;
+    height: 600px;
+    margin-bottom: 20px;
+  }
+  
+
+/*Estilos para o footer*/
+
+#footer {
+    background-color: #F5F5DC;
+    padding: 20px;
+    text-align: center;
+}
+  
+#footer p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+#footer div {
+    display: inline-block;
+    margin: 10px;
+}
+  
+#footer img {
+    width: 100px;
+    height: auto;
+}
+
+/*Estilo da scrollbar*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #F5F5DC;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000000;
+    border-radius: 360px;
+}
+
+/*Estilo para o pop-up*/
+
+.swal2-popup  {
+    background: #faebd7 !important;
+    border-radius: 50px;
+}
+
+.swal2-timer-progress-bar-container{
+    display: none;
+}
+
+.swal2-title  {
+    color: black !important;
+    background: #faebd7;
+}
+
+.swal2-icon .swal2-icon-content{
+    background: transparent;
+}
+
+[class^='swal2'] {
+    -webkit-tap-highlight-color: transparent;
+    background: #faebd7;
+}

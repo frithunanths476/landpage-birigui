@@ -1,0 +1,31 @@
+@media (max-width: 801px){
+    .sylfaenydd{
+        display: none;
+    }
+
+    .mapaBirigui iframe{
+        width: 350px;
+        height: 350px;
+    }
+
+    .textoterciario .table{
+        overflow-y: auto;
+        width: 300px;
+    }
+    .qpTab{
+        overflow-y: auto;
+    }
+    .qpTab .table{
+        width: 900px;
+    }
+
+    .pečat img{
+        display: none;
+    }
+
+    .testunStamp{
+        display: block;
+        overflow-y: auto;
+        width: 300px;
+    }
+}
